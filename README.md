@@ -76,13 +76,13 @@ Date: March 1, 2020
 
 * deployed Screenshot: 
 
-![Screenshots]()
+![Screenshots](/src/img/google-search.png)
 
 
 - - -
 
 ### Links & Portfolio's Links
-*  [Deployed page]()
+*  [Deployed page](https://whispering-savannah-89866.herokuapp.com/)
 *  [Hyejin's Portfolio](https://cshjnim.github.io/)
 
 - - -
