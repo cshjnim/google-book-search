@@ -21,6 +21,7 @@ class Home extends Component {
       [name]: value
     });
   };
+  
 
   getBooks = () => {
     API.getBooks(this.state.q)
@@ -54,7 +55,7 @@ class Home extends Component {
       description: book.volumeInfo.description,
       image: book.volumeInfo.imageLinks.thumbnail
     }).then(() => this.getBooks());
-  };
+  }
 
   render() {
     return (

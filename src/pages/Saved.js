@@ -17,7 +17,7 @@ class Saved extends Component {
   }
 
   getSavedBooks = () => {
-    API.saveBook()
+    API.getSavedBooks()
       .then(res =>
         this.setState({
           books: res.data
@@ -37,7 +37,7 @@ class Saved extends Component {
           <Col size="md-12">
             <Jumbotron>
               <h1 className="text-center">
-                <strong>(React) Google Books Search</strong>
+                <strong>Hyejin's Google Books Search</strong>
               </h1>
               <h2 className="text-center">Search for and Save Books of Interest.</h2>
             </Jumbotron>
