@@ -17,7 +17,7 @@ class Saved extends Component {
   }
 
   getSavedBooks = () => {
-    API.getSavedBooks()
+    API.saveBook()
       .then(res =>
         this.setState({
           books: res.data
